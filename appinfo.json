@@ -1,0 +1,32 @@
+{
+  "uuid": "4C25ABDD-1DE6-4424-B2AE-EA721E34F375",
+  "shortName": "tweet",
+  "longName": "tweet",
+  "companyName": "Neal Patel",
+  "versionLabel": "0.1",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt", "chalk"],
+  "capabilities": ["configurable"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "text": 0,
+    "success": 1,
+    "hasTokens": 2
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "raw",
+        "name": "TWITTER_PDC_LARGE",
+        "file": "Pebble_80x80_Twitter_notification.pdc"
+      },
+      {
+        "type": "png",
+        "name": "ICON_CONFIG_REQUIRED",
+        "file": "config-required.png"
+      }
+    ]
+  }
+}
